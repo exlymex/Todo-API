@@ -43,7 +43,7 @@ class TasksController {
 
         newTask.title = req.body.title;
         newTask.date = req.body.date;
-        newTask.status = req.body.stat;
+        newTask.status = req.body.status;
         newTask.description = req.body.description;
         newTask.priority = req.body.priority;
 
